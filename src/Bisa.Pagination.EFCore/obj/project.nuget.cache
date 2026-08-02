@@ -1,8 +1,237 @@
 {
   "version": 2,
-  "dgSpecHash": "5++4oMVMuyE=",
+  "dgSpecHash": "6gix6JcC6z4=",
   "success": true,
   "projectFilePath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\Daniel\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.10\\microsoft.entityframeworkcore.10.0.10.nupkg.sha512",
+    "C:\\Users\\Daniel\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.10\\microsoft.entityframeworkcore.abstractions.10.0.10.nupkg.sha512",
+    "C:\\Users\\Daniel\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.10\\microsoft.entityframeworkcore.analyzers.10.0.10.nupkg.sha512",
+    "C:\\Users\\Daniel\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\10.0.10\\microsoft.extensions.caching.abstractions.10.0.10.nupkg.sha512",
+    "C:\\Users\\Daniel\\.nuget\\packages\\microsoft.extensions.caching.memory\\10.0.10\\microsoft.extensions.caching.memory.10.0.10.nupkg.sha512",
+    "C:\\Users\\Daniel\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.10\\microsoft.extensions.dependencyinjection.10.0.10.nupkg.sha512",
+    "C:\\Users\\Daniel\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.10\\microsoft.extensions.dependencyinjection.abstractions.10.0.10.nupkg.sha512",
+    "C:\\Users\\Daniel\\.nuget\\packages\\microsoft.extensions.logging\\10.0.10\\microsoft.extensions.logging.10.0.10.nupkg.sha512",
+    "C:\\Users\\Daniel\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.10\\microsoft.extensions.logging.abstractions.10.0.10.nupkg.sha512",
+    "C:\\Users\\Daniel\\.nuget\\packages\\microsoft.extensions.options\\10.0.10\\microsoft.extensions.options.10.0.10.nupkg.sha512",
+    "C:\\Users\\Daniel\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.10\\microsoft.extensions.primitives.10.0.10.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist.",
+      "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist.",
+      "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist.",
+      "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist.",
+      "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist.",
+      "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist.",
+      "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist.",
+      "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist.",
+      "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist.",
+      "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist.",
+      "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist.",
+      "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist.",
+      "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist.",
+      "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist.",
+      "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist.",
+      "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist.",
+      "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore' from remote source 'https://runflare.com/mirrors/FindPackagesById()?id='Microsoft.EntityFrameworkCore'&semVerLevel=2.0.0'.",
+      "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore' from remote source 'https://runflare.com/mirrors/FindPackagesById()?id='Microsoft.EntityFrameworkCore'&semVerLevel=2.0.0'.",
+      "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist.",
+      "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist.",
+      "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist.",
+      "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist.",
+      "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist.",
+      "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist.",
+      "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+      "targetGraphs": []
+    }
+  ]
 }

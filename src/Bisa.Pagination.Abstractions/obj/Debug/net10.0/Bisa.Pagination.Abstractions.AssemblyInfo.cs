@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bisa.Pagination.Abstractions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a1ff4fbd05e36d30a75335dd01304ef495a0fc7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+372149d08a9449c147e27267d28aaf8d948444f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bisa.Pagination.Abstractions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bisa.Pagination.Abstractions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
