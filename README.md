@@ -1,2 +1,2 @@
 # Bisa.Pagination
-Data pagination using Offset and Keset methods  
+Data pagination using Offset and Keyset methods  
