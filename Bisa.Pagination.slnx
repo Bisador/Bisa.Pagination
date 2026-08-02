@@ -1,7 +1,8 @@
 <Solution>
   <Folder Name="/src/">
     <Project Path="src/Bisa.Pagination.Abstractions/Bisa.Pagination.Abstractions.csproj" />
-    <Project Path="src/Bisa.Pagination.Api/Bisa.Pagination.Api.csproj" />
+    <Project Path="src/Bisa.Pagination.AspNetCore/Bisa.Pagination.AspNetCore.csproj" />
+    <Project Path="src/Bisa.Pagination.Core/Bisa.Pagination.Core.csproj" />
     <Project Path="src/Bisa.Pagination.Dapper/Bisa.Pagination.Dapper.csproj" />
     <Project Path="src/Bisa.Pagination.EFCore/Bisa.Pagination.EFCore.csproj" />
   </Folder>

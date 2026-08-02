@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bisa.Pagination.Dapper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+372149d08a9449c147e27267d28aaf8d948444f2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b23733044d3f19d2a718558314278d4b2ec5e59")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bisa.Pagination.Dapper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bisa.Pagination.Dapper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

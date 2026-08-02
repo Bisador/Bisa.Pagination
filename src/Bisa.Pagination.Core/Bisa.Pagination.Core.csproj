@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bisa.Pagination.Abstractions\Bisa.Pagination.Abstractions.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="System.Linq.Expressions"/>
+    <Using Include="Bisa.Pagination.Abstractions"/>
+    <Using Include="Bisa.Pagination.Abstractions.Enums"/>
+    <Using Include="Bisa.Pagination.Abstractions.Exceptions"/>
+  </ItemGroup>
+  
+</Project>

@@ -12,7 +12,7 @@ public static class EfPaginationExtensions
     /// <summary>Item 1 — classic offset (skip/take) pagination.</summary>
     public static async Task<OffsetPaginationResult<T>> ToOffsetPaginationAsync<T>(
         this IQueryable<T> source,
-        OffsetPaginationRequest request,
+        OffsetPageRequest request,
         CancellationToken cancellationToken = default)
     {
         ArgumentNullException.ThrowIfNull(source);
@@ -54,7 +54,7 @@ public static class EfPaginationExtensions
     {
         return request switch
         {
-            OffsetPaginationRequest offsetRequest => CastAsync(
+            OffsetPageRequest offsetRequest => CastAsync(
                 source.ToOffsetPaginationAsync(offsetRequest, cancellationToken)),
             _ => throw new NotSupportedException(
                 $"Pagination request type '{request.GetType().Name}' is not supported.")
