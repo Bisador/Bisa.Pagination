@@ -24,8 +24,8 @@ public static class PageResultBuilder
     }
 
     /// <summary>
-    /// <paramref name="fetchedRows"/> باید دقیقاً همان چیزی باشد که از CursorQueryPlan.Query
-    /// (با Take(PageSize+1) و ترتیب احتمالاً معکوس برای Backward) خوانده شده است.
+    /// <paramref name="fetchedRows"/> should be exactly the same as CursorQueryPlan.Query
+    /// (read with Take(PageSize+1) and possibly reverse order for Backward).
     /// </summary>
     public static PageResult<T> FromCursor<T>(
         List<T> fetchedRows,
@@ -42,7 +42,7 @@ public static class PageResultBuilder
 
         var isBackward = request.Direction == PaginationDirection.Backward;
         if (isBackward)
-            fetchedRows.Reverse(); // به ترتیب طبیعی (همان ترتیب SortSpecs اصلی) برگردان
+            fetchedRows.Reverse(); // Return in natural order (same order as the original SortSpecs).
 
         bool hasNext = isBackward ? true : hasExtraRow;
         bool hasPrevious = isBackward ? hasExtraRow : request.Cursor is not null;
@@ -62,7 +62,7 @@ public static class PageResultBuilder
         }
         else
         {
-            // نتیجه خالی (Empty Result): نه کرسر بعدی معنا دارد نه قبلی.
+            // Empty Result: Neither the next cursor nor the previous one is meaningful.
             hasNext = false;
             hasPrevious = false;
         }

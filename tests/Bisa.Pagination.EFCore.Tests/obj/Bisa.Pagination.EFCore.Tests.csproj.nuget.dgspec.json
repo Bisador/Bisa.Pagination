@@ -1,0 +1,326 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\tests\\Bisa.Pagination.EFCore.Tests\\Bisa.Pagination.EFCore.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.Abstractions\\Bisa.Pagination.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.Abstractions\\Bisa.Pagination.Abstractions.csproj",
+        "projectName": "Bisa.Pagination.Abstractions",
+        "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.Abstractions\\Bisa.Pagination.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net10.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Daniel\\Downloads\\NugetSource": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://package-mirror.liara.ir/repository/nuget/index.json": {},
+          "https://runflare.com/mirrors": {}
+        },
+        "frameworks": {
+          "net10.0": {
+            "targetAlias": "net10.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net10.0": {
+          "targetAlias": "net10.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.Core\\Bisa.Pagination.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.Core\\Bisa.Pagination.Core.csproj",
+        "projectName": "Bisa.Pagination.Core",
+        "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.Core\\Bisa.Pagination.Core.csproj",
+        "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net10.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Daniel\\Downloads\\NugetSource": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://package-mirror.liara.ir/repository/nuget/index.json": {},
+          "https://runflare.com/mirrors": {}
+        },
+        "frameworks": {
+          "net10.0": {
+            "targetAlias": "net10.0",
+            "projectReferences": {
+              "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.Abstractions\\Bisa.Pagination.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.Abstractions\\Bisa.Pagination.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net10.0": {
+          "targetAlias": "net10.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+        "projectName": "Bisa.Pagination.EFCore",
+        "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj",
+        "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net10.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Daniel\\Downloads\\NugetSource": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://package-mirror.liara.ir/repository/nuget/index.json": {},
+          "https://runflare.com/mirrors": {}
+        },
+        "frameworks": {
+          "net10.0": {
+            "targetAlias": "net10.0",
+            "projectReferences": {
+              "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.Abstractions\\Bisa.Pagination.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.Abstractions\\Bisa.Pagination.Abstractions.csproj"
+              },
+              "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.Core\\Bisa.Pagination.Core.csproj": {
+                "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.Core\\Bisa.Pagination.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net10.0": {
+          "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[10.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\tests\\Bisa.Pagination.EFCore.Tests\\Bisa.Pagination.EFCore.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\tests\\Bisa.Pagination.EFCore.Tests\\Bisa.Pagination.EFCore.Tests.csproj",
+        "projectName": "Bisa.Pagination.EFCore.Tests",
+        "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\tests\\Bisa.Pagination.EFCore.Tests\\Bisa.Pagination.EFCore.Tests.csproj",
+        "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\tests\\Bisa.Pagination.EFCore.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net10.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Daniel\\Downloads\\NugetSource": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://package-mirror.liara.ir/repository/nuget/index.json": {},
+          "https://runflare.com/mirrors": {}
+        },
+        "frameworks": {
+          "net10.0": {
+            "targetAlias": "net10.0",
+            "projectReferences": {
+              "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.Core\\Bisa.Pagination.Core.csproj": {
+                "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.Core\\Bisa.Pagination.Core.csproj"
+              },
+              "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj": {
+                "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.EFCore\\Bisa.Pagination.EFCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net10.0": {
+          "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[10.0.10, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.14.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

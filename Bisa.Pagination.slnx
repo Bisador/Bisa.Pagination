@@ -6,4 +6,7 @@
     <Project Path="src/Bisa.Pagination.Dapper/Bisa.Pagination.Dapper.csproj" />
     <Project Path="src/Bisa.Pagination.EFCore/Bisa.Pagination.EFCore.csproj" />
   </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Bisa.Pagination.EFCore.Tests/Bisa.Pagination.EFCore.Tests.csproj" />
+  </Folder>
 </Solution>

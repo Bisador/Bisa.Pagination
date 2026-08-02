@@ -1,9 +1,9 @@
 namespace Bisa.Pagination.Core;
 
 /// <summary>
-/// کارخانه ساده برای ساخت PaginationOptions معتبر (تولید کلید امضای تصادفی در صورت عدم تنظیم
-/// در محیط توسعه). در Production توصیه می‌شود CursorSigningKey را از پیکربندی امن تزریق کنید
-/// (به Bisa.Pagination.AspNetCore برای الگوی ثبت در DI مراجعه کنید).
+/// Simple factory to make valid PaginationOptions (generate a random signature key if not set
+/// in the development environment). In Production it is recommended to inject the CursorSigningKey from the secure configuration
+/// (See Bisa.Pagination.AspNetCore template for registration in DI).
 /// </summary>
 public static class PaginationOptionsFactory
 {
@@ -14,7 +14,7 @@ public static class PaginationOptionsFactory
         return options;
     }
 
-    /// <summary>یک کلید ۳۲ بایتی (۲۵۶ بیتی) تصادفی امن برای HMAC-SHA256 تولید می‌کند.</summary>
+    /// <summary> Generates a 32-byte (256-bit) random secure key for HMAC-SHA256.</summary>
     public static byte[] GenerateRandomKey(int sizeInBytes = 32)
     {
         var bytes = new byte[sizeInBytes];

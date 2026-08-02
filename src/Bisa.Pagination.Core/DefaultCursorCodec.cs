@@ -31,7 +31,7 @@ public sealed class DefaultCursorCodec : ICursorCodec
     public DefaultCursorCodec(PaginationOptions options)
     {
         _options = options ?? throw new ArgumentNullException(nameof(options));
-        if (_options.CursorProtection == CursorProtection.HashSigned && _options.CursorSigningKey.Length == 0)
+        if (_options is { CursorProtection: CursorProtection.HashSigned, CursorSigningKey.Length: 0 })
             throw new InvalidOperationException(
                 "PaginationOptions.CursorSigningKey must be set for CursorProtection.HashSigned (eg a random 32-byte key).");
     }

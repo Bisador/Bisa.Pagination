@@ -202,6 +202,19 @@
         "runtime": {
           "bin/placeholder/Bisa.Pagination.Abstractions.dll": {}
         }
+      },
+      "Bisa.Pagination.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Bisa.Pagination.Abstractions": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Bisa.Pagination.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Bisa.Pagination.Core.dll": {}
+        }
       }
     }
   },
@@ -553,11 +566,17 @@
       "type": "project",
       "path": "../Bisa.Pagination.Abstractions/Bisa.Pagination.Abstractions.csproj",
       "msbuildProject": "../Bisa.Pagination.Abstractions/Bisa.Pagination.Abstractions.csproj"
+    },
+    "Bisa.Pagination.Core/1.0.0": {
+      "type": "project",
+      "path": "../Bisa.Pagination.Core/Bisa.Pagination.Core.csproj",
+      "msbuildProject": "../Bisa.Pagination.Core/Bisa.Pagination.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
       "Bisa.Pagination.Abstractions >= 1.0.0",
+      "Bisa.Pagination.Core >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 10.0.10"
     ]
   },
@@ -598,6 +617,9 @@
           "projectReferences": {
             "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.Abstractions\\Bisa.Pagination.Abstractions.csproj": {
               "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.Abstractions\\Bisa.Pagination.Abstractions.csproj"
+            },
+            "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.Core\\Bisa.Pagination.Core.csproj": {
+              "projectPath": "C:\\Users\\Daniel\\RiderProjects\\Bisa.Pagination\\src\\Bisa.Pagination.Core\\Bisa.Pagination.Core.csproj"
             }
           }
         }
@@ -642,151 +664,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist."
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist."
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist."
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist."
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist."
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist."
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist."
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist."
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist."
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist."
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist."
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist."
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist."
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist."
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist."
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist."
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore' from remote source 'https://runflare.com/mirrors/FindPackagesById()?id='Microsoft.EntityFrameworkCore'&semVerLevel=2.0.0'."
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore' from remote source 'https://runflare.com/mirrors/FindPackagesById()?id='Microsoft.EntityFrameworkCore'&semVerLevel=2.0.0'."
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist."
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist."
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist."
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist."
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist."
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "The local source 'C:\\Users\\Daniel\\Downloads\\NugetSource' doesn't exist."
-    }
-  ]
+  }
 }

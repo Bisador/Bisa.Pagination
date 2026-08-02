@@ -13,6 +13,7 @@
   
   <ItemGroup>
     <ProjectReference Include="..\Bisa.Pagination.Abstractions\Bisa.Pagination.Abstractions.csproj" />
+    <ProjectReference Include="..\Bisa.Pagination.Core\Bisa.Pagination.Core.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,12 @@
+C:\Users\Daniel\RiderProjects\Bisa.Pagination\src\Bisa.Pagination.Dapper\bin\Debug\net10.0\Bisa.Pagination.Dapper.deps.json
+C:\Users\Daniel\RiderProjects\Bisa.Pagination\src\Bisa.Pagination.Dapper\bin\Debug\net10.0\Bisa.Pagination.Dapper.dll
+C:\Users\Daniel\RiderProjects\Bisa.Pagination\src\Bisa.Pagination.Dapper\bin\Debug\net10.0\Bisa.Pagination.Dapper.pdb
+C:\Users\Daniel\RiderProjects\Bisa.Pagination\src\Bisa.Pagination.Dapper\obj\Debug\net10.0\Bisa.Pagination.Dapper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daniel\RiderProjects\Bisa.Pagination\src\Bisa.Pagination.Dapper\obj\Debug\net10.0\Bisa.Pagination.Dapper.AssemblyInfoInputs.cache
+C:\Users\Daniel\RiderProjects\Bisa.Pagination\src\Bisa.Pagination.Dapper\obj\Debug\net10.0\Bisa.Pagination.Dapper.AssemblyInfo.cs
+C:\Users\Daniel\RiderProjects\Bisa.Pagination\src\Bisa.Pagination.Dapper\obj\Debug\net10.0\Bisa.Pagination.Dapper.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\RiderProjects\Bisa.Pagination\src\Bisa.Pagination.Dapper\obj\Debug\net10.0\Bisa.Pagination.Dapper.sourcelink.json
+C:\Users\Daniel\RiderProjects\Bisa.Pagination\src\Bisa.Pagination.Dapper\obj\Debug\net10.0\Bisa.Pagination.Dapper.dll
+C:\Users\Daniel\RiderProjects\Bisa.Pagination\src\Bisa.Pagination.Dapper\obj\Debug\net10.0\refint\Bisa.Pagination.Dapper.dll
+C:\Users\Daniel\RiderProjects\Bisa.Pagination\src\Bisa.Pagination.Dapper\obj\Debug\net10.0\Bisa.Pagination.Dapper.pdb
+C:\Users\Daniel\RiderProjects\Bisa.Pagination\src\Bisa.Pagination.Dapper\obj\Debug\net10.0\ref\Bisa.Pagination.Dapper.dll

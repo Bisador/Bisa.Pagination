@@ -1,67 +1,60 @@
-using System.Linq.Expressions;
 using Bisa.Pagination.Abstractions;
+using Bisa.Pagination.Abstractions.Enums;
+using Bisa.Pagination.Core;
 using Microsoft.EntityFrameworkCore;
 
 namespace Bisa.Pagination.EFCore;
 
 /// <summary>
-/// EF Core implementation of every pagination strategy declared in Bisa.Pagination.Abstractions.
+/// Async version of pagination methods for IQueryable<T> supported by EF Core.
+/// Uses EF Core's actual ToListAsync/CountAsync (not the behind-the-scenes Sync implementation).
 /// </summary>
 public static class EfPaginationExtensions
 {
-    /// <summary>Item 1 — classic offset (skip/take) pagination.</summary>
-    public static async Task<OffsetPaginationResult<T>> ToOffsetPaginationAsync<T>(
-        this IQueryable<T> source,
-        OffsetPageRequest request,
-        CancellationToken cancellationToken = default)
+    extension<T>(IQueryable<T> source)
     {
-        ArgumentNullException.ThrowIfNull(source);
-        ArgumentNullException.ThrowIfNull(request);
-
-        var totalCount = await source.CountAsync(cancellationToken).ConfigureAwait(false);
-
-        var items = await source
-            .Skip((request.PageNumber - 1) * request.PageSize)
-            .Take(request.PageSize)
-            .ToListAsync(cancellationToken)
-            .ConfigureAwait(false);
-
-        var totalPages = totalCount == 0 ? 0 : (int)Math.Ceiling(totalCount / (double)request.PageSize);
-
-        return new OffsetPaginationResult<T>
+        /// <summary>
+        /// Async implementation of Offset paging. According to the requirement of "selecting Count calculation with the user",
+        /// If request.CountMode == None, no Count query is executed (only 1 data query is executed),
+        /// If it is Provided, no additional query will be executed (the user has given the value),
+        /// And only in Compute mode, a separate COUNT(*) query is made to the database.
+        /// </summary>
+        public async Task<PageResult<T>> ToOffsetPageResultAsync(OffsetPageRequest request,
+            CancellationToken cancellationToken = default)
         {
-            Items = items,
-            PageNumber = request.PageNumber,
-            PageSize = request.PageSize,
-            TotalCount = totalCount,
-            TotalPages = totalPages,
-            HasNext = request.PageNumber < totalPages,
-            HasPrevious = request.PageNumber > 1
-        };
-    }
+            var pagedQuery = source.ApplyOffsetPagination(request);
+            var items = await pagedQuery.ToListAsync(cancellationToken).ConfigureAwait(false);
 
-    /// <summary>
-    /// Item 5 — single entry point that dispatches to offset or cursor pagination based on the
-    /// runtime type of <paramref name="request"/>, so a controller/service can accept either
-    /// strategy through one <see cref="IPaginationRequest"/> parameter.
-    /// </summary>
-    public static Task<PaginationResult<T>> ToPaginationAsync<T, TKey>(
-        this IQueryable<T> source,
-        IPaginationRequest request,
-        Expression<Func<T, TKey>> cursorKeySelector,
-        CancellationToken cancellationToken = default)
-        where TKey : IComparable<TKey>
-    {
-        return request switch
+            var totalCount = request.CountMode switch
+            {
+                CountMode.None => null,
+                CountMode.Provided => request.ProvidedTotalCount,
+                CountMode.Compute => await source.LongCountAsync(cancellationToken).ConfigureAwait(false),
+                _ => null
+            };
+
+            return PageResultBuilder.FromOffset(items, request, totalCount);
+        }
+         
+
+        /// <summary>اجرای Async صفحه‌بندی کرسری با پشتیبانی کامل از Composite Key و Backforwarding.</summary>
+        public async Task<PageResult<T>> ToCursorPageResultAsync(IReadOnlyList<SortSpecification<T>> sortSpecs,
+            CursorPageRequest request,
+            ICursorCodec cursorCodec,
+            CancellationToken cancellationToken = default)
         {
-            OffsetPageRequest offsetRequest => CastAsync(
-                source.ToOffsetPaginationAsync(offsetRequest, cancellationToken)),
-            _ => throw new NotSupportedException(
-                $"Pagination request type '{request.GetType().Name}' is not supported.")
-        };
+            var plan = source.ApplyCursorPagination(sortSpecs, request, cursorCodec);
+            var fetched = await plan.Query.ToListAsync(cancellationToken).ConfigureAwait(false);
 
-        static async Task<PaginationResult<T>> CastAsync<TResult>(Task<TResult> task)
-            where TResult : PaginationResult<T>
-            => await task.ConfigureAwait(false);
+            long? totalCount = request.CountMode switch
+            {
+                CountMode.None => null,
+                CountMode.Provided => request.ProvidedTotalCount,
+                CountMode.Compute => await source.LongCountAsync(cancellationToken).ConfigureAwait(false),
+                _ => null
+            };
+
+            return PageResultBuilder.FromCursor(fetched, plan, cursorCodec, totalCount);
+        }
     }
 }

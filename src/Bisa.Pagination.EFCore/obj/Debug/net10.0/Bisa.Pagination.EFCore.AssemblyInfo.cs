@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bisa.Pagination.EFCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b23733044d3f19d2a718558314278d4b2ec5e59")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b73f9b1d0d1c3abc5af19f9e4a45f0121f5e0989")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bisa.Pagination.EFCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bisa.Pagination.EFCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

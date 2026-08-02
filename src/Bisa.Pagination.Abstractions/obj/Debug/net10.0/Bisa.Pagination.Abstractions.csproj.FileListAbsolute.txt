@@ -1,0 +1,12 @@
+C:\Users\Daniel\RiderProjects\Bisa.Pagination\src\Bisa.Pagination.Abstractions\bin\Debug\net10.0\Bisa.Pagination.Abstractions.deps.json
+C:\Users\Daniel\RiderProjects\Bisa.Pagination\src\Bisa.Pagination.Abstractions\bin\Debug\net10.0\Bisa.Pagination.Abstractions.dll
+C:\Users\Daniel\RiderProjects\Bisa.Pagination\src\Bisa.Pagination.Abstractions\bin\Debug\net10.0\Bisa.Pagination.Abstractions.pdb
+C:\Users\Daniel\RiderProjects\Bisa.Pagination\src\Bisa.Pagination.Abstractions\obj\Debug\net10.0\Bisa.Pagination.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daniel\RiderProjects\Bisa.Pagination\src\Bisa.Pagination.Abstractions\obj\Debug\net10.0\Bisa.Pagination.Abstractions.AssemblyInfoInputs.cache
+C:\Users\Daniel\RiderProjects\Bisa.Pagination\src\Bisa.Pagination.Abstractions\obj\Debug\net10.0\Bisa.Pagination.Abstractions.AssemblyInfo.cs
+C:\Users\Daniel\RiderProjects\Bisa.Pagination\src\Bisa.Pagination.Abstractions\obj\Debug\net10.0\Bisa.Pagination.Abstractions.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\RiderProjects\Bisa.Pagination\src\Bisa.Pagination.Abstractions\obj\Debug\net10.0\Bisa.Pagination.Abstractions.sourcelink.json
+C:\Users\Daniel\RiderProjects\Bisa.Pagination\src\Bisa.Pagination.Abstractions\obj\Debug\net10.0\Bisa.Pagination.Abstractions.dll
+C:\Users\Daniel\RiderProjects\Bisa.Pagination\src\Bisa.Pagination.Abstractions\obj\Debug\net10.0\refint\Bisa.Pagination.Abstractions.dll
+C:\Users\Daniel\RiderProjects\Bisa.Pagination\src\Bisa.Pagination.Abstractions\obj\Debug\net10.0\Bisa.Pagination.Abstractions.pdb
+C:\Users\Daniel\RiderProjects\Bisa.Pagination\src\Bisa.Pagination.Abstractions\obj\Debug\net10.0\ref\Bisa.Pagination.Abstractions.dll
