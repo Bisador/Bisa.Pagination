@@ -1,7 +1,0 @@
-﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c579bd06_002D5fdf_002D4982_002Daaf3_002D6694f1dca23f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="OffsetAsync_ReturnsCorrectPage_WithComputedCount" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::3EF917EC-994A-1DEC-D627-7F95D39FF22B::net10.0::Bisa.Pagination.EFCore.Tests.EfPaginationTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::69DE8F9D-648B-0F11-AE87-96506283619E::net10.0::Bisa.Pagination.Core.Tests.CursorPaginationTests&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
