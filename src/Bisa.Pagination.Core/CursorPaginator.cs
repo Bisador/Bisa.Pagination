@@ -1,5 +1,6 @@
 namespace Bisa.Pagination.Core;
 
+
 /// <summary>
 /// Output of the "build query" phase of cursor pagination: an IQueryable<T> ready to run
 /// (not yet implemented - user can continue with Select/Include before ToList/ToListAsync;
@@ -50,7 +51,7 @@ public static class CursorPaginator
             throw new ArgumentException("At least one SortSpecification (preferably with a unique key at the end) is required.",
                 nameof(sortSpecs));
 
-        if (request.Direction == PaginationDirection.Backward && request.Cursor is null)
+        if (request is { Direction: PaginationDirection.Backward, Cursor: null })
             throw new ArgumentException(
                 "Backward paging makes no sense without a Cursor (use Forward with Cursor=null for the first page).");
 

@@ -52,8 +52,7 @@ internal static class KeysetPredicateBuilder
         CursorPosition position,
         PaginationDirection direction)
     {
-        if (specs.Count != position.Keys.Count)
-            throw new CursorSchemaMismatchException();
+        ValidatePosition(specs, position);
 
         var parameter = Expression.Parameter(typeof(T), "x");
         Expression? finalPredicate = null;
@@ -78,6 +77,36 @@ internal static class KeysetPredicateBuilder
 
         var lambda = Expression.Lambda<Func<T, bool>>(finalPredicate!, parameter);
         return source.Where(lambda);
+    }
+
+    private static void ValidatePosition<T>(IReadOnlyList<SortSpecification<T>> specs, CursorPosition position)
+    {
+        if (specs.Count != position.Keys.Count)
+            throw new CursorSchemaMismatchException();
+
+        for (var i = 0; i < specs.Count; i++)
+        {
+            var spec = specs[i];
+            var cursorKey = position.Keys[i];
+
+            if (!string.Equals(
+                    spec.PropertyName,
+                    cursorKey.Name,
+                    StringComparison.Ordinal))
+            {
+                throw new CursorSchemaMismatchException();
+            }
+            
+            var expectedType = GetComparableType(spec.PropertyType);
+
+            if (!string.Equals(
+                    expectedType.FullName,
+                    cursorKey.TypeName,
+                    StringComparison.Ordinal))
+            {
+                throw new CursorSchemaMismatchException();
+            }
+        }
     }
 
     /// <summary>
@@ -136,5 +165,10 @@ internal static class KeysetPredicateBuilder
             value = Convert.ChangeType(value, underlyingTargetType, System.Globalization.CultureInfo.InvariantCulture);
 
         return Expression.Constant(value, underlyingTargetType);
+    }
+    
+    private static Type GetComparableType(Type type)
+    {
+        return Nullable.GetUnderlyingType(type) ?? type;
     }
 }
