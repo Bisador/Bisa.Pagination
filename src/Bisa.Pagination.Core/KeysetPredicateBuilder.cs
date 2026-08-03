@@ -162,7 +162,9 @@ internal static class KeysetPredicateBuilder
         var value = keyValue.Value!;
 
         if (!underlyingTargetType.IsInstanceOfType(value))
-            value = Convert.ChangeType(value, underlyingTargetType, System.Globalization.CultureInfo.InvariantCulture);
+        {
+            throw new CursorSchemaMismatchException();
+        }
 
         return Expression.Constant(value, underlyingTargetType);
     }
