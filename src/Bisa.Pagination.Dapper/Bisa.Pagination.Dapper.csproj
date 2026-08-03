@@ -1,9 +1,23 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>latest</LangVersion>
+        <RootNamespace>Bisa.Pagination.Dapper</RootNamespace>
+        <PackageId>Bisa.Pagination.Dapper</PackageId>
+        <Description>Parameterized SQL construction tools (Offset and Keyset/Cursor with Composite Key) for Dapper, based on Bisa.Pagination.Core.</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Dapper" Version="2.1.79"/>
+    </ItemGroup>
+
+
+    <ItemGroup>
+        <ProjectReference Include="..\Bisa.Pagination.Abstractions\Bisa.Pagination.Abstractions.csproj"/>
+        <ProjectReference Include="..\Bisa.Pagination.Core\Bisa.Pagination.Core.csproj" />
+    </ItemGroup>
 
 </Project>

@@ -4,6 +4,10 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>Bisa.Pagination.EFCore</RootNamespace>
+    <PackageId>Bisa.Pagination.EFCore</PackageId>
+    <Description>Async implementation of pagination (Offset and Cursor) for Entity Framework Core based on Bisa.Pagination.Core.</Description>
   </PropertyGroup>
 
 

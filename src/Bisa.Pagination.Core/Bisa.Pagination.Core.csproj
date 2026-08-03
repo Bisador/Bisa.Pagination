@@ -4,6 +4,10 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>Bisa.Pagination.Core</RootNamespace>
+    <PackageId>Bisa.Pagination.Core</PackageId>
+    <Description>Pagination database independent logic: Offset, Cursor/Keyset with Composite Key support, Backforwarding and Cursor encryption. Works on any IQueryable&lt;T&gt; (EF Core, In-Memory, etc.).</Description>
   </PropertyGroup>
 
   <ItemGroup>
