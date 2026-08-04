@@ -4,6 +4,20 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>Bisa.Pagination.AspNetCore</RootNamespace>
+    <PackageId>Bisa.Pagination.AspNetCore</PackageId>
+    <Description>Integrating pagination with ASP.NET Core: Binding querystrings, registering in DI and creating Link/RFC-5988 Header.</Description>
+    
   </PropertyGroup>
 
+
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bisa.Pagination.Core\Bisa.Pagination.Core.csproj" />
+  </ItemGroup>
 </Project>
