@@ -1,6 +1,6 @@
 # Bisa.Pagination
 
-A layered pagination library for **.NET 8** that supports both classic **Offset Pagination** and scalable **Cursor/Keyset Pagination**, including **Composite Keys**, **Backward Pagination**, and **cursor signing/protection**.
+A layered pagination library for **.NET 10** that supports both classic **Offset Pagination** and scalable **Cursor/Keyset Pagination**, including **Composite Keys**, **Backward Pagination**, and **cursor signing/protection**.
 
 The library works with both **EF Core** and **Dapper**.
 
