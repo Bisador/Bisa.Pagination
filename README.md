@@ -26,7 +26,7 @@ The library is split into several projects, each with a clearly defined responsi
 * Each layer can be tested independently. For example, `Core.Tests` runs against **LINQ-to-Objects** without requiring a real database.
 
 ---
-
+ 
 
 ## 2. Offset Pagination
 
